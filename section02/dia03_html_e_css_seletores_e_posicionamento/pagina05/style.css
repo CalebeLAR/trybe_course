@@ -1,0 +1,29 @@
+/* p,
+h1 {
+    text-align: center;
+}
+
+li:hover {
+    background-color: green;
+    cursor:  pointer;
+}
+
+li:active {
+    color: aliceblue;
+}
+
+.list {
+    list-style: lower-roman;
+} */
+
+ul li div p {
+    background-color: blue;
+}
+
+ul>li>div>p {
+    background-color: red;
+}
+
+ul>li>div>p.green{
+    background-color: green;
+}
