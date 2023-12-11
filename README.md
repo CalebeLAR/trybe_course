@@ -2,4 +2,5 @@
 
 ## seção02: Introdução à HTML & CSS  
     dia01: HTML & CSS - Estruturas de página  
-    
+    dia02: HTML & CSS - Primeiros passos em CSS  
+    dia03: HTML & CSS - Seletores e posicionamento  
