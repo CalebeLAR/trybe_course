@@ -11,6 +11,7 @@ dia04: HTML Semântico
 dia01: Primeiros passos no JavaScript  
 dia02: Array e estrutura de repetição | [repo de exercicios](https://github.com/CalebeLAR/trybe_exercises/tree/fundamentals.section03.day02)  
 dia03: Funções | [repo de exercicios](https://github.com/CalebeLAR/trybe_exercises/tree/fundamentals.section03.day03)  
+dia04: Objetos | [repo de exercicios](https://github.com/CalebeLAR/trybe_exercises/tree/fundamentals.section03.day04) 
 
 ░░░░░░░░░░░░░░░░░░░░░▄▀░░▌  
 ░░░░░░░░░░░░░░░░░░░▄▀▐░░░▌  
