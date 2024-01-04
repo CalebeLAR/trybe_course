@@ -20,6 +20,7 @@ dia01: HTML & CSS - Estruturas de página
 dia02: JavaScript - Trabalhando com elementos  
 dia03: JavaScript - Eventos  
 dia04: JavaScript - Web Storage  
+[`dia05: Projeto - Arte com Pixels`](https://github.com/CalebeLAR/trybe-project-pixels-art)
 
 ░░░░░░░░░░░░░░░░░░░░░▄▀░░▌  
 ░░░░░░░░░░░░░░░░░░░▄▀▐░░░▌  
