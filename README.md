@@ -31,6 +31,7 @@ dia04: JavaScript - Web Storage
 dia01: HTML & CSS - Forms  
 dia02: Bibliotecas JavaScript e Frameworks CSS  
 dia03: 03: CSS Flexbox - Parte 1  
+dia04: CSS Flexbox - Parte 2  
 
 
 ░░░░░░░░░░░░░░░░░░░░░▄▀░░▌  
