@@ -33,6 +33,7 @@ dia02: Bibliotecas JavaScript e Frameworks CSS
 dia03: 03: CSS Flexbox - Parte 1  
 dia04: CSS Flexbox - Parte 2  
 dia05: Responsividade  
+[`dia06: Projeto - Trybewarts`](https://github.com/CalebeLAR/trybe_project_trybewarts)  
 
 
 ░░░░░░░░░░░░░░░░░░░░░▄▀░░▌  
