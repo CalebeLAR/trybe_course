@@ -35,6 +35,8 @@ dia04: CSS Flexbox - Parte 2
 dia05: Responsividade  
 [`dia06: Projeto - Trybewarts`](https://github.com/CalebeLAR/trybe_project_trybewarts)  
 
+**seção06. Introdução à JavaScript ES6 e Testes Unitários**  
+dia01: Fluxo de exceções  
 
 ░░░░░░░░░░░░░░░░░░░░░▄▀░░▌  
 ░░░░░░░░░░░░░░░░░░░▄▀▐░░░▌  
