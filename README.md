@@ -37,6 +37,7 @@ dia05: Responsividade
 
 **seção06: Introdução à JavaScript ES6 e Testes Unitários**  
 dia01: Fluxo de exceções  
+dia02: Primeiros passos em Jest  
 
 ░░░░░░░░░░░░░░░░░░░░░▄▀░░▌  
 ░░░░░░░░░░░░░░░░░░░▄▀▐░░░▌  
