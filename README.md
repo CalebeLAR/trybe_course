@@ -41,6 +41,9 @@ dia02: Primeiros passos em Jest
 dia03: Matchers e cobertura de código  
 [`dia04: Projeto - JavaScript Testes Unitários`](https://github.com/CalebeLAR/trybe_project_unit_tests)  
 
+**seção07: Métodos de Array**  
+dia01: Métodos de Array - map  
+
 ░░░░░░░░░░░░░░░░░░░░░▄▀░░▌  
 ░░░░░░░░░░░░░░░░░░░▄▀▐░░░▌  
 ░░░░░░░░░░░░░░░░▄▀▀▒▐▒░░░▌  
