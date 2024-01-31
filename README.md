@@ -43,6 +43,7 @@ dia03: Matchers e cobertura de código
 
 **seção07: Métodos de Array**  
 dia01: Métodos de Array - map  
+dia02: Métodos de Array - filter e sort  
 
 ░░░░░░░░░░░░░░░░░░░░░▄▀░░▌  
 ░░░░░░░░░░░░░░░░░░░▄▀▐░░░▌  
