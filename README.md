@@ -16,7 +16,7 @@ dia05: JSON e dia de prática
 [`dia06: Projeto - Playground Functions!`](https://github.com/CalebeLAR/playground_functions)  
 
 **seção04: JavaScript: DOM, Eventos e Web Storage**  
-dia01: HTML & CSS - Estruturas de página  
+dia01: JavaScript - DOM e seletores  
 dia02: JavaScript - Trabalhando com elementos  
 dia03: JavaScript - Eventos  
 dia04: JavaScript - Web Storage  
@@ -44,6 +44,7 @@ dia03: Matchers e cobertura de código
 **seção07: Métodos de Array**  
 dia01: Métodos de Array - map  
 dia02: Métodos de Array - filter e sort  
+dia03: Métodos de Array - find e forEach  
 
 ░░░░░░░░░░░░░░░░░░░░░▄▀░░▌  
 ░░░░░░░░░░░░░░░░░░░▄▀▐░░░▌  
