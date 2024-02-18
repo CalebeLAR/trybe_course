@@ -45,7 +45,8 @@ dia03: Matchers e cobertura de código
 dia01: Métodos de Array - map  
 dia02: Métodos de Array - filter e sort  
 dia03: Métodos de Array - find e forEach  
-dia05: Live Coding   
+dia05: Live Coding  
+[`dia06: Projeto - Zoo Functions`](https://github.com/CalebeLAR/zoo_functions)  
 
 ░░░░░░░░░░░░░░░░░░░░░▄▀░░▌  
 ░░░░░░░░░░░░░░░░░░░▄▀▐░░░▌  
