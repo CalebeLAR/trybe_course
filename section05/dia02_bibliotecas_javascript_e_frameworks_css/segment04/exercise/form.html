@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário - TrybeTravel</title>
+    <link rel="stylesheet" href="../../bootstrap/css/bootstrap.min.css">
+</head>
+
+<body>
+    <h1 class="text-center id=" title">Formulário Trybe Travel</h1>
+
+    <form id="main-form" class="container">
+        <fieldset>
+            <label class="form-label" for="fullName">Nome Completo:</label>
+            <input class="form-control" type="text" id="fullName" name="fullName" placeholder="Digite seu nome completo"
+                maxlength="40" minlength="10" required />
+            <label class="form-label" for="email" class="form-label">Endereço de E-mail:</label>
+            <input class="form-control" type="email" id="email" name="email" placeholder="Digite seu e-mail"
+                maxlength="50" minlength="10" required />
+
+            <label class="form-check-label" for="destination1">Cidade</label>
+            <input class="form-check-input" type="radio" id="destination1" className="radios" name="destinations"
+                value="Cidade" required />
+            <label class="form-check-label" for="destination2">Campo</label>
+            <input class="form-check-input" type="radio" id="destination2" className="radios" name="destinations"
+                value="Campo" required />
+            <label class="form-check-label" for="destination3">Praia</label>
+            <input class="form-check-input" type="radio" id="destination3" className="radios" name="destinations"
+                value="Praia" required />
+            <label class="form-check-label" for="destination4">Montanhas</label>
+            <input class="form-check-input" type="radio" id="destination4" className="radios" name="destinations"
+                value="Montanhas" required />
+
+            <label class="form-label" for="question">
+                Por que você deveria ser a pessoa desenvolvedora a ganhar o concurso
+                TrybeTravel
+            </label>
+            <br />
+            <textarea class="form-control" name="why" id="question" cols="60" rows="10"
+                placeholder="Digite sua resposta vencedora aqui" maxlength="500">
+            </textarea>
+            <label class="form-label" for="date">Qual a melhor data para realizar sua viagem?</label>
+            <input class="form-control" type="date" id="date" />
+            <br />
+            <input class="form-check-input" type="checkbox" name="promo" id="promo" />
+            <label class="form-check-label" for="promo">Gostaria de receber outras incríveis oportunidades oferecidas
+                pela Trybe.
+            </label>
+            <br />
+            <input class="form-check-input" type="checkbox" name="agreement" id="agreement" required />
+            <label class="form-check-label" for="agreement">Concordo que imagens de minhas férias poderão ser usadas na
+                divulgação de concursos futuros.
+            </label>
+        </fieldset>
+        <button class="btn btn-success" type="submit" id="submit-btn" disabled>Enviar</button>
+        <button class="btn btn-secondary" id="clear-btn">Limpar</button>
+    </form>
+</body>
+<script src="../../bootstrap/js/bootstrap.min.js"></script>
+<script src="https://unpkg.com/just-validate@latest/dist/just-validate.production.min.js">
+    const submitBtn = document.querySelector('#submit-btn');
+
+    function clearFields() {
+     submitBtn.disabled = true;
+    }
+
+    function enableSubmit() {
+      const agreement = document.querySelector('#agreement');
+     submitBtn.disabled = !agreement.checked;
+    }
+
+    const validate = new JustValidate(
+        '#main-form',
+        {
+            errorFieldCssClass: 'is-invalid',
+            errorFieldStyle: {
+                border: '1px solid red',
+            },
+            errorLabelCssClass: 'is-label-invalid',
+            errorLabelStyle: {
+                color: 'red',
+                textDecoration: 'underlined',
+            },
+            focusInvalidField: true,
+            lockForm: true,
+            tooltip: {
+                position: 'top',
+            },
+        },
+    );
+
+    validate
+        .addField('#fullName', [
+            {
+                rule: 'required',
+                errorMessage: 'O campo de nome é obrigatório.',
+            },
+            {
+                rule: 'maxLength',
+                value: 40,
+                errorMessage: 'O limite é de 40 caracteres.',
+            },
+            {
+                rule: 'minLength',
+                value: 10,
+                errorMessage: 'O mínimo é de 10 caracteres.',
+            },
+        ])
+        .addField('#email', [
+            {
+                rule: 'required',
+                errorMessage: 'O campo de email é obrigatório.',
+            },
+            {
+                rule: 'email',
+                errorMessage: 'O email digitado não é válido.',
+            },
+            {
+                rule: 'maxLength',
+                value: 50,
+                errorMessage: 'O limite é de 50 caracteres.',
+            },
+        ])
+        .addField('#question', [
+            {
+                rule: 'required',
+                errorMessage: 'O campo de resposta é obrigatório.',
+            },
+            {
+                rule: 'maxLength',
+                value: 500,
+                errorMessage: 'O limite é de 500 caracteres',
+            },
+        ])
+        .addField('#date', [
+            {
+                rule: 'required',
+                errorMessage: 'O campo de data é obrigatório.',
+            },
+        ]);
+
+    window.onload = function () {
+        const clearBtn = document.querySelector('#clear-btn');
+        clearBtn.addEventListener('click', clearFields);
+        const agreement = document.querySelector('#agreement');
+        agreement.addEventListener('change', enableSubmit);
+    };
+
+</script>
+
+</html>
