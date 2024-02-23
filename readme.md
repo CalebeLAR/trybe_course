@@ -1,9 +1,10 @@
-# trybe_course
+# front-end
 
-### [fundamentals](https://github.com/CalebeLAR/trybe_course/tree/fundamentos)  
-Pasta com anotações do primeiro modulo de desenvolvimento web do curso da trybe.  
-A pasta contém um readme com os links de exercícios e projetos desenvolvidos durante esse  
-período, onde tem aplicado de forma prática conteúdos como: Unix & Bash, Git & Internet,  
-JS & DOM, HTML & CSS Avançado e JS Avançado & Testes Unitários.  
+<!-- **seção02: Introdução à HTML & CSS**  
+dia01: HTML & CSS - Estruturas de página  
+dia02: HTML & CSS - Primeiros passos em CSS  
+dia03: HTML & CSS - Seletores e posicionamento  
+dia04: HTML Semântico  
+[`dia05: Projeto - Lessons Learned`](https://github.com/CalebeLAR/lessons_learned) -->
 
 
