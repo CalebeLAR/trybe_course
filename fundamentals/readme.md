@@ -21,11 +21,6 @@ dia02: JavaScript - Trabalhando com elementos
 dia03: JavaScript - Eventos  
 dia04: JavaScript - Web Storage  
 [`dia05: Projeto - Arte com Pixels`](https://github.com/CalebeLAR/trybe-project-pixels-art)  
-<!-- `dia06: Projetos Bônus -` 
-   [`Lista de tarefas`](https://github.com/CalebeLAR/)
- | [`Meme Generator`](https://github.com/CalebeLAR/)
- | [`Adivinhe a Cor`](https://github.com/CalebeLAR/)
- | [`Carta Misteriosa`](https://github.com/CalebeLAR/) -->
 
 **seção05: HTML e CSS: Forms, Flexbox e Responsivo**  
 dia01: HTML & CSS - Forms  
