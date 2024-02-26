@@ -1,6 +1,6 @@
 # trybe_course
 
-### [fundamentals](https://github.com/CalebeLAR/trybe_course/tree/fundamentos)  
+### [fundamentals](https://github.com/CalebeLAR/trybe_course/tree/fundamentals)  
 Pasta com anotações do primeiro modulo de desenvolvimento web do curso da trybe.  
 A pasta contém um readme com os links de exercícios e projetos desenvolvidos durante esse  
 período, onde tem aplicado de forma prática conteúdos como: Unix & Bash, Git & Internet,  
