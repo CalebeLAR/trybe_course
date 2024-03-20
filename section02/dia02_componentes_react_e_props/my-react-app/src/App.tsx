@@ -1,6 +1,7 @@
 import Header from './components/Header';
 import Footer from './components/Footer';
 import Book from './components/Book';
+import Title from './components/Title';
 
 const books = [
   {
@@ -38,6 +39,9 @@ function App() {
   return (
     <div>
       <Header />
+      <Title>
+        <s>Livros Emprestados</s>
+      </Title>
       <p>Meus livros: </p>
       <ul>
         {books.map((book) => (
