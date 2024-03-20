@@ -1,5 +1,6 @@
 // .eslintrc.json
 
 {
-    "extends": "@trybe/eslint-config-frontend/typescript"
+  "extends": "@trybe/eslint-config-frontend/typescript"
 }
+
