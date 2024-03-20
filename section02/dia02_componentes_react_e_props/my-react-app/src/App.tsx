@@ -37,6 +37,9 @@ function App() {
       <p>Meus livros: </p>
       <ul>
         <Book book={ book1 } />
+        <Book book={ book2 } />
+        <Book book={ book3 } />
+        <Book book={ book4 } />
       </ul>
       <Footer />
     </div>
