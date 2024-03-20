@@ -9,5 +9,8 @@ export default class Unit02 {
     'Verificação de tipos pelo TypeScript',
     'TypeScript é só isso?',
   ];
-  static videos = ['FE 2.2 - Tipos primitivos e arrays',];
+  static videos = [
+    'FE 2.2 - Tipos primitivos e arrays',
+    'FE 2.2 - Tipos customizados e inferência de tipos',
+  ];
 }
