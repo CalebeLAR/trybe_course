@@ -4,45 +4,7 @@ import Book from './components/book';
 import Title from './components/title';
 
 import './App.css';
-
-const booksList = [
-  {
-    title: 'The Godfather',
-    pages: 433,
-    isRead: true,
-    isFavorite: false,
-  },
-  {
-    title: 'The Little Prince',
-    pages: 92,
-    isRead: true,
-    isFavorite: true,
-  },
-  {
-    title: 'Clean Code',
-    pages: 425,
-    isRead: false,
-    isFavorite: false,
-  },
-  {
-    title: 'Dom Casmurro',
-    pages: 192,
-    isRead: true,
-    isFavorite: false,
-  },
-  {
-    title: 'Vidas Secas',
-    pages: 176,
-    isRead: true,
-    isFavorite: false,
-  },
-  {
-    title: 'Turma da Mônica',
-    pages: 52,
-    isRead: false,
-    isFavorite: false,
-  },
-];
+import books, { title } from './data';
 
 function App() {
   return (
@@ -50,13 +12,16 @@ function App() {
       <Header />
       <div className="container">
         <Title>
-          Meus livros: <s>Livros emprestados</s>
+          Meus livros:
+          {' '}
+          <s>Livros emprestados</s>
         </Title>
         <ul className="books-list">
-          {booksList.map((book) => (
-            <Book key={book.title} book={book} />
+          {books.map((book) => (
+            <Book key={ book.title } book={ book } />
           ))}
         </ul>
+        <Title>{title}</Title>
       </div>
       <Footer />
     </div>
