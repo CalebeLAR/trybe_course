@@ -37,6 +37,6 @@ const books = [
   },
 ];
 
-export const title = 'title';
+export const title = 'Melhores Filmes';
 
 export default books;

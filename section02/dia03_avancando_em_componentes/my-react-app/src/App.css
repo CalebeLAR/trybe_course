@@ -16,3 +16,14 @@
 .books-list {
   background-color: #fff;
 }
+
+.images-container img {
+  width: 700px;
+}
+
+.images-container {
+  display: flex;
+  justify-content:center;
+  margin-top: 40px;
+  width: 100%;
+}
