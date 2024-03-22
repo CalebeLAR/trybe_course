@@ -5,7 +5,7 @@ import LottoNumbers from './components/LottoNumbers';
 import './App.css';
 
 function App() {
-  const lotto = [7, 21, 59, 12, 42, 30];
+  const lotto = [7, 21, 59,23,42,31];
 
   return (
     <>
