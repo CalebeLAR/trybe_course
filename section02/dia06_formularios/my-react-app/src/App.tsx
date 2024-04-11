@@ -14,6 +14,7 @@ export default function App() {
   const [books, setBooks] = useState<BookType[]>(booksList);
   const [bookTitle, setBookTitle] = useState('');
   const [bookPages, setBookPages] = useState(0);
+  const [showFormMessage, setShowFormMessage] = useState(false);
 
   function handleNameChange(event: React.ChangeEvent<HTMLInputElement>) {
     setBookTitle(event.target.value);
@@ -39,8 +40,13 @@ export default function App() {
 
   function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault();
-    updateState();
-    resetState();
+    if (bookTitle !== '' && bookPages > 0) {
+      updateState();
+      resetState();
+      setShowFormMessage(false);
+    } else {
+      setShowFormMessage(true);
+    }
   }
 
   return (
@@ -69,7 +75,11 @@ export default function App() {
             value={ bookPages }
             onChange={ handlePagesChange }
           />
-
+          {showFormMessage && (
+            <div className="form-message">
+              <p>Todos os campos são obrigatórios</p>
+            </div>
+          )}
           <Button>
             Adicionar
           </Button>
