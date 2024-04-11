@@ -14,7 +14,7 @@ export default function App() {
   const [books, setBooks] = useState<BookType[]>(booksList);
   const [bookTitle, setBookTitle] = useState('');
   const [bookPages, setBookPages] = useState(0);
-  const [showFormMessage, setShowFormMessage] = useState(false);
+  const [errorMessages, setErrorMessages] = useState<string[]>([]);
 
   function handleNameChange(event: React.ChangeEvent<HTMLInputElement>) {
     setBookTitle(event.target.value);
@@ -38,14 +38,25 @@ export default function App() {
     setBookPages(0);
   }
 
+  function isFormValid() {
+    const errors = [];
+    if (bookTitle === '') {
+      errors.push('O campo Título é obrigatório');
+    }
+    if (bookPages <= 0) {
+      errors.push('O campo Paginas precisa der maior que zero');
+    }
+
+    setErrorMessages(errors);
+    return errors.length === 0;
+  }
+
   function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault();
-    if (bookTitle !== '' && bookPages > 0) {
+    if (isFormValid()) {
       updateState();
       resetState();
-      setShowFormMessage(false);
-    } else {
-      setShowFormMessage(true);
+      setErrorMessages([]);
     }
   }
 
@@ -75,15 +86,14 @@ export default function App() {
             value={ bookPages }
             onChange={ handlePagesChange }
           />
-          {showFormMessage && (
+          {errorMessages.length > 0 && (
             <div className="form-message">
-              <p>Todos os campos são obrigatórios</p>
+              {errorMessages.map((message) => <p key={ message }>{message}</p>)}
             </div>
           )}
           <Button>
             Adicionar
           </Button>
-
         </form>
         <Footer />
       </div>
