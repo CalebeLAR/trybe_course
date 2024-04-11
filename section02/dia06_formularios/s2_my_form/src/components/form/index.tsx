@@ -7,6 +7,8 @@ function Form() {
   const [email, setEmail] = useState('');
   const [schooling, setSchooling] = useState('Médio');
   const [resume, setResume] = useState('');
+  const [terms, setTerms] = useState(false);
+  const [error, setError] = useState(false);
 
   function resetForm() {
     setName('');
@@ -17,13 +19,17 @@ function Form() {
 
   function handleSubmit(event: React.FormEvent<HTMLFormElement>) {
     event.preventDefault();
-    alert(`
+    if (terms) {
+      alert(`
       Nome: ${name}\n
       email: ${email}\n
       Escolaridade: ${schooling}\n
       Experiências: ${resume}
       `);
-    resetForm();
+      resetForm();
+    } else {
+      setError(true);
+    }
   }
 
   return (
@@ -61,6 +67,21 @@ function Form() {
           onChange={ ({ target }) => setResume(target.value) }
         />
       </label>
+      <label>
+        Aceito os termos e condições
+        <input
+          type="checkbox"
+          checked={ terms }
+          onChange={ () => setTerms((prevTerms) => !prevTerms) }
+        />
+
+      </label>
+      {error && (
+        <h4>
+          Você precisa aceitar os termos e condições para poder enviar o
+          currículo
+        </h4>
+      )}
       <button>Enviar</button>
     </form>
   );
