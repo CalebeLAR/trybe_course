@@ -15,6 +15,8 @@ function Form() {
     setEmail('');
     setSchooling('Médio');
     setResume('');
+    setTerms(false);
+    setError(false);
   }
 
   function handleSubmit(event: React.FormEvent<HTMLFormElement>) {
@@ -37,6 +39,7 @@ function Form() {
       <label>
         Nome
         <input
+          required
           value={ name }
           onChange={ ({ target }) => setName(target.value) }
         />
@@ -44,6 +47,7 @@ function Form() {
       <label>
         E-mail
         <input
+          required
           value={ email }
           onChange={ ({ target }) => setEmail(target.value) }
         />
