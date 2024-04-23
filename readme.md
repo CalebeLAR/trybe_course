@@ -14,3 +14,4 @@ dia03: **Avançando em componentes**
 dia04: **Revisão - Solar System**  
 dia05: **Estados e eventos**  
 dia06: **Formulários**  
+dia07: [**Projeto - solar-system**](https://github.com/CalebeLAR/solar-system)  
