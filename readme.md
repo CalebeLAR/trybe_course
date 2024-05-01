@@ -19,5 +19,6 @@ dia07: [**Projeto - solar-system**](https://github.com/CalebeLAR/solar-system)
 **seção03: `Aprofundando no React`**  
 dia01: **Aprofundando no React**  
 dia02: **useEffect**  
+dia03: **Revisão - Clonando o Twitter**  
 
 
