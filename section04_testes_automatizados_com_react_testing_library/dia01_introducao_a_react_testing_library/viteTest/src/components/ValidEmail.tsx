@@ -16,6 +16,6 @@ function ValidEmail({ email }: ValidEmailProps) {
       <h3>{email && (verifyEmail(email) ? 'Email Válido' : 'Email Inválido')}</h3>
     </div>
   );
-};
+}
 
 export default ValidEmail;
