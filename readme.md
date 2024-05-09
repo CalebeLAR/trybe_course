@@ -24,4 +24,6 @@ dia04: [**Projeto - Trybetunes**](https://github.com/CalebeLAR/trybetunes)
 
 **seção04: `Testes automatizados com React Testing Library`**  
 dia01: **Introdução a React Testing Library**  
+dia02: **RTL Mocks**  
+
 
