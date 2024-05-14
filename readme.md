@@ -27,3 +27,6 @@ dia01: **Introdução a React Testing Library**
 dia02: **RTL Mocks**  
 dia03: **RTL Testando com React Router**  
 dia04: [**Projeto - React Testing Library**](https://github.com/CalebeLAR/react-testing-library)  
+
+**seção05: `Estilização e Metodologia Ágil`**  
+dia01: **Metodologias ágeis**  
