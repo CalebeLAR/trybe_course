@@ -32,5 +32,5 @@ dia04: [**Projeto - React Testing Library**](https://github.com/CalebeLAR/react-
 dia01: **Metodologias ágeis**  
 dia02: **CSS Modules**  
 dia03: **Styled Components**  
-dia04: [**Projeto: Frontend Online Store**](https://github.com/CalebeLAR/react-testing-library)  
+dia04: [**Projeto: Frontend Online Store**](https://github.com/CalebeLAR/online-store)  
 
