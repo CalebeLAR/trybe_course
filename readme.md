@@ -31,3 +31,6 @@ dia04: [**Projeto - React Testing Library**](https://github.com/CalebeLAR/react-
 **seção05: `Estilização e Metodologia Ágil`**  
 dia01: **Metodologias ágeis**  
 dia02: **CSS Modules**  
+dia03: **Styled Components**  
+dia04: [**Projeto: Frontend Online Store**](https://github.com/CalebeLAR/react-testing-library)  
+
