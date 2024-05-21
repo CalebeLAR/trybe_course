@@ -35,7 +35,5 @@ dia03: **Styled Components**
 dia04: [**Projeto: Frontend Online Store**](https://github.com/CalebeLAR/online-store)  
 
 **seção06: `Gerenciamento de estado com Redux`**  
-dia01: **01: Introdução ao Redux - O estado global da aplicação**  
-
-
-
+dia01: **Introdução ao Redux - O estado global da aplicação**  
+dia02: **Usando o Redux no React**  
