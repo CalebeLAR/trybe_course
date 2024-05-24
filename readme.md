@@ -39,3 +39,5 @@ dia01: **Introdução ao Redux - O estado global da aplicação**
 dia02: **Usando o Redux no React**  
 dia03: **Revisão - Usando o Redux no React**  
 dia04: **Usando o Redux no React - Actions Assíncronas**  
+dia05: **Testes em React-Redux**  
+
