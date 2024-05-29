@@ -42,3 +42,7 @@ dia04: **Usando o Redux no React - Actions Assíncronas**
 dia05: **Testes em React-Redux**  
 dia06: [**Projeto - TrybeWallet**](https://github.com/CalebeLAR/trybe_wallet)  
 
+**seção07: `Componentes de Classes, Context API e Custom Hooks`**  
+dia01: **Componentes de Classes**  
+
+
