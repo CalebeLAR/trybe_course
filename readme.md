@@ -45,5 +45,6 @@ dia06: [**Projeto - TrybeWallet**](https://github.com/CalebeLAR/trybe_wallet)
 **seção07: `Componentes de Classes, Context API e Custom Hooks`**  
 dia01: **Componentes de Classes**  
 dia02: **Context API**  
+dia03: **Hooks Customizados**  
 
 
