@@ -46,5 +46,4 @@ dia06: [**Projeto - TrybeWallet**](https://github.com/CalebeLAR/trybe_wallet)
 dia01: **Componentes de Classes**  
 dia02: **Context API**  
 dia03: **Hooks Customizados**  
-
-
+dia04: [**Projeto - StarWars**](https://github.com/CalebeLAR/try15-starwars-planets-search)  
