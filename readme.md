@@ -1,11 +1,19 @@
 ## front-end
 
+<<<<<<< fron-end
 **seção01: `Introdução ao Frontend e JavaScript assíncrono`**  
 dia01: **Ambiente de desenvolvimento**  
 dia02: **JavaScript Assíncrono - Promises e fetch** | [Exercício API de Super Heróis](https://github.com/CalebeLAR/trybe_exercises/tree/front-end.section01.day02)  
 dia03: **Revisão - Casa de Câmbio**  
 dia04: **Async, await e testes assíncronos**  
 dia05: [**Projeto - chopping-cart**](https://github.com/CalebeLAR/chopping-cart)  
+=======
+### [fundamentals](https://github.com/CalebeLAR/trybe_course/tree/fundamentals)  
+Pasta com anotações do primeiro modulo de desenvolvimento web do curso da trybe.  
+A pasta contém um readme com os links de exercícios e projetos desenvolvidos durante esse  
+período, onde tem aplicado de forma prática conteúdos como: Unix & Bash, Git & Internet,  
+JS & DOM, HTML & CSS Avançado e JS Avançado & Testes Unitários.  
+>>>>>>> main
 
 **seção02: `Introdução ao React e ao Typescript`**  
 dia01: **Introdução ao React e ao Typescript**  
