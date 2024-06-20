@@ -1,0 +1,61 @@
+html,
+body,
+.root {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background-color: rgb(224, 224, 250);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.root {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+h1 {
+  color: rgb(32, 32, 32);
+}
+
+input {
+  width: 500px;
+  height: 40px;
+  box-shadow: 3px 3px 10px rgb(66, 66, 66);
+  font-size: large;
+  padding: 2px 15px;
+  --angle: 0deg;
+  border: 3px solid;
+  border-image: conic-gradient(
+      from var(--angle),
+      red,
+      yellow,
+      lime,
+      aqua,
+      blue,
+      magenta,
+      red
+    )
+    1;
+
+  animation: 5s rotate linear infinite;
+}
+
+input:focus {
+  outline: none;
+}
+
+@keyframes rotate {
+  to {
+    --angle: 360deg;
+  }
+}
+
+@property --angle {
+  syntax: '<angle>';
+  initial-value: 0deg;
+  inherits: false;
+}

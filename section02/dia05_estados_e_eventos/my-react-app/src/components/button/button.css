@@ -1,0 +1,18 @@
+.styled-btn {
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  background-color: rgb(14, 110, 207);
+  box-shadow: 1.5px 1.5px rgba(128, 128, 128, 0.404);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  width: 100%;
+  margin: 0;
+}
+
+.styled-btn:hover {
+  cursor: pointer;
+}
+
+.styled-btn:active {
+  background-color: rgba(165, 164, 164, 0.644);
+}
