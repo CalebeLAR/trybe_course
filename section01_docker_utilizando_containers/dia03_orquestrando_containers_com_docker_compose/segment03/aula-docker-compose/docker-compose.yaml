@@ -1,0 +1,28 @@
+version: "3"
+services:
+  frontend:
+    build: frontend/
+    restart: on-failure
+    ports:
+      - 3000:3000
+    depends_on:
+      - backend
+  backend:
+    build: backend/
+    restart: on-failure
+    ports:
+      - 3001:3001
+    environment:
+      - DB_HOST=database
+    depends_on:
+      - database
+  database:
+    image: betrybe/docker-compose-example-database:v1
+    restart: on-failure
+
+# Configuramos da seguinte maneira:
+#     Três serviços, um deles usando uma imagem Docker pronta e dois com arquivo Dockerfile;
+#     Mapeamos as portas de conexão;
+#     Configuramos a política de reinicialização;
+#     Criamos uma variável de ambiente;
+#     Definimos a ordem de subida dos serviços.
