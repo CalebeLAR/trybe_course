@@ -1,0 +1,54 @@
+início dos registros
+day dd.mm.aaaa hh.mm:hh.mm course.md.ss.dd.pp
+TONY RAMOS PERGUNTOU OQ PRECISAVA PARA CAVAR UM BURACO PERTO DO NATAL, OQ RESPONDERAM?  pá né tone(panetone)!
+
+qua 10.04.2024 16.00:20.15 tr.fe.s2.d5
+qui 11.04.2024 10.45:12.15 tr.fe.s2.d6
+qui 11.04.2024 14.35:16.00 tr.fe.s2.d6
+sab 13.04.2024 19.30:20.21 tr.fe.s2.d6
+ter 23.04.2024 15.17:16.00 tr.fe.s2.d7
+
+sex 26.04.2024 16.00:--.-- tr.fe.s3.d1
+seg 29.04.2024 14.00:16.56 tr.fe.s3.d1
+ter 30.04.2024 14.15:16.15 tr.fe.s3.d2
+qua 01.05.2024 14.00:14.30 tr.fe.s3.d3 * conteúdo exclusivo para a turma
+sex 03.05.2024 13.50:15.10 tr.fe.s3.d4
+
+seg 06.05.2024 14.00:16.20 tr.fe.s4.d1 * estourou o tempo | agora os testes ja vêm prontos
+qua 08.05.2024 16.44:17.15 tr.fe.s4.d1 *  
+qui 09.05.2024 14.15:17.08 tr.fe.s4.d2 * faltou um exercicio de fixação |trybe está se tornado uma alura 2.0
+sex 09.05.2024 16.30:19.00 tr.fe.s4.d3 * faltou ver tudo de novo.
+seg 13.05.2024 14.00:15.30 tr.fe.s4.d4
+ 
+ter 14.05.2024 14.00:15.00 tr.fe.s5.d1
+qua 15.05.2024 14.00:15.15 tr.fe.s5.d2 * aula Tiago T34
+qui 16.05.2024 14.15:16.15 tr.fe.s5.d3 * aula Tiago T34
+sex 17.05.2024 13.45:14.00 tr.fe.s5.d4 * readme já pronto. Voltar para melhorar
+
+seg 20.05.2024 14.30:16.00 tr.fe.s6.d1 * fazer o exercício pelo amor de deus
+ter 21.05.2024 14.15:17.00 tr.fe.s6.d2 * 
+qua 22.05.2024 14.30:17.00 tr.fe.s6.d3 * 
+qui 23.05.2024 15.00:17.00 tr.fe.s6.d4 * fazer o exercício e refazer sem ver o gabarito exercise
+sex 24.05.2024 14.15:17.00 tr.fe.s6.d5 * 
+seg 27.05.2024 14.45:17.00 tr.fe.s6.d6 * 
+
+qua 29.05.2024 14.18:16.00 tr.fe.s7.d1 * 
+qui 30.05.2024 14.15:15.15 tr.fe.s7.d2 * 
+sex 31.05.2024 14.00:15.00 tr.fe.s7.d3 * 
+seg 03.06.2024 10.00:12.00 tr.fe.s7.d4 * readme StarWars
+
+qua 05.06.2024 10.00:10.45 tr.fe.s7.d4 * readme RecipesApp
+
+seg 14.06.2024 10.30:12.00 tr.fe.s1.d1
+seg 21.07.2024 10.30:10.45 tr.be.s1.d2
+seg 21.07.2024 10.30:13.00 tr.be.s1.d2
+
+ter 06.08.2024 tr.be.s1.d3
+ter 20.08.2024 tr.be.s2.d1
+
+dom 08.09.2024 tr.be.s2.d2
+
+
+
+
+
