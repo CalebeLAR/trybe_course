@@ -7,4 +7,4 @@ dia03: **Orquestrando Containers com Docker Compose**
 dia04: [Projeto - Docker Todo-List](https://github.com/CalebeLAR/docker-todo-list)  
 
 **seção02: `Introdução à SQL`**  
-dia01: **01: Banco de dados SQL**  
+dia01: **Banco de dados SQL** | [Exercícios sobre relacionamento de tabelas no Workbench](https://github.com/CalebeLAR/trybe_exercises/tree/back-end.section02.day01)  
