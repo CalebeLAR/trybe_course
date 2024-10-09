@@ -1,0 +1,16 @@
+{
+  "title": "Exibindo e filtrando dados de forma agrupada com GROUP BY e HAVING",
+  "professor": "",
+  "topics": [
+    "Exibindo e filtrando dados de forma agrupada com GROUP BY e HAVING",
+    "Praticando GROUP BY",
+    "Filtrando Resultados do GROUP BY com HAVING",
+    "Para fixar"
+  ],
+  "videos": [
+    {
+      "prof": "Gustavo Caetano",
+      "title": "GROUP BY, HAVING"
+    }
+  ]
+}
