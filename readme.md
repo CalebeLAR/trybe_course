@@ -12,3 +12,6 @@ dia02: **Encontrando dados em um banco de dados** | [Exercícios](https://github
 dia03: **Filtrando dados de forma específica** | [Exercícios](https://github.com/CalebeLAR/trybe_exercises/tree/back-end.section02.day03)  
 dia04: **Manipulando tabelas** | [Exercícios](https://github.com/CalebeLAR/trybe_exercises/tree/back-end.section02.day04)  
 dia05: [**Projeto - All For One**](https://github.com/CalebeLAR/trybe_17_mysql_all_for_one)  
+
+**seção03: `Funções SQL, JOINs e Normalização`**  
+dia01: **Funções mais usadas no SQL** | [Exercícios](https://github.com/CalebeLAR/trybe_exercises/tree/back-end.section03.day01)  
