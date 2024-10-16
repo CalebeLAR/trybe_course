@@ -1,0 +1,16 @@
+{
+  "title": "Como utilizar o INNER JOIN",
+  "professor": "",
+  "topics": [
+    "Como utilizar o INNER JOIN",
+    "Por que usamos o alias (AS)?",
+    "Dicas sobre como escolher o tamanho do alias",
+    "Para fixar:"
+  ],
+  "videos": [
+    {
+      "prof": "Gustavo Caetano",
+      "title": "INNER JOIN"
+    }
+  ]
+}
