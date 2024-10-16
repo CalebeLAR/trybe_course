@@ -15,3 +15,4 @@ dia05: [**Projeto - All For One**](https://github.com/CalebeLAR/trybe_17_mysql_a
 
 **seção03: `Funções SQL, JOINs e Normalização`**  
 dia01: **Funções mais usadas no SQL** | [Exercícios](https://github.com/CalebeLAR/trybe_exercises/tree/back-end.section03.day01)  
+dia02: **02: Descomplicando JOINs** |
