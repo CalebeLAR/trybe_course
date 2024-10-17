@@ -1,0 +1,15 @@
+{
+  "title": "Como utilizar o LEFT JOIN e o RIGHT JOIN",
+  "professor": "",
+  "topics": [
+    "Como utilizar o LEFT JOIN e o RIGHT JOIN",
+    "Três queries e uma pergunta",
+    "Notando as diferenças"
+  ],
+  "videos": [
+    {
+      "prof": "Gustavo Caetano",
+      "title": "LEFT e RIGHT JOIN"
+    }
+  ]
+}
