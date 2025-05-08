@@ -1,0 +1,61 @@
+{
+  "title": "Recursos adicionais (opcional)",
+  "professor": "",
+  "topics": [
+    "Recursos adicionais (opcional)"
+  ],
+  "recursosAdicionais": [
+    {
+      "titulo": "NPM Comandos Cheat Sheet",
+      "link": "https: //github.com/tryber/Trybe-CheatSheets/blob/master/backend/nodejs/npm/README.md"
+    },
+    {
+      "titulo": "Documentação oficial do Node.js",
+      "link": "https: //nodejs.org/docs/latest/api/"
+    },
+    {
+      "titulo": "Documentação oficial do NPM",
+      "link": "https: //docs.npmjs.com/"
+    },
+    {
+      "titulo": "Vídeo: Node.js // Dicionário do Programador",
+      "link": "https: //www.youtube.com/watch?v=vYekSMBCCiM&t=426s"
+    },
+    {
+      "titulo": "Sobre Versionamento Semântico",
+      "link": "https: //semver.org/lang/pt-BR/"
+    },
+    {
+      "titulo": "O guia completo do package.json do Node.js",
+      "link": "https: //www.luiztools.com.br/post/o-guia-completo-do-package-json-do-node-js/"
+    },
+    {
+      "titulo": "Tudo que você queria saber sobre o package-lock.json, mas estava com vergonha de perguntar",
+      "link": "https: //medium.com/@allangrds/tudo-que-voc%C3%AA-queria-saber-sobre-o-package-lock-json-mas-estava-com-vergonha-de-perguntar-e70589f2855f"
+    },
+    {
+      "titulo": "Entendendo módulos ES6",
+      "link": "https: //medium.com/trainingcenter/entendendo-m%C3%B3dulos-no-javascript-73bce1d64dbf"
+    },
+    {
+      "titulo": "CommonJS vs. ES Modules: Modules and Imports in NodeJS",
+      "link": "https: //reflectoring.io/nodejs-modules-imports/"
+    },
+    {
+      "titulo": "Dissertação sobre as principais Licenças de Software",
+      "link": "https: //www.teses.usp.br/teses/disponiveis/45/45134/tde-14032012-003454/publico/MestradoVanessaSabino.pdf"
+    },
+    {
+      "titulo": "Como funcionam as licenças open source?",
+      "link": "https: //medium.com/code-prestige/como-funcionam-as-licen%C3%A7as-open-source-9ff1da677ccd"
+    },
+    {
+      "titulo": "O lado Legal do Open Source",
+      "link": "https: //opensource.guide/pt/legal/"
+    },
+    {
+      "titulo": "Vídeo do canal Código Fonte explicando sobre Licenças de Software",
+      "link": "https: //www.youtube.com/watch?v=fPfzp6ov2bQ"
+    }
+  ]
+}

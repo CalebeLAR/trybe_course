@@ -1,0 +1,30 @@
+{
+  "title": "Database Design - Como modelar um banco de dados",
+  "professor": "",
+  "topics": [
+    "Database Design - Como modelar um banco de dados",
+    "1) Identificando entidades, atributos e relacionamentos",
+    "Entidades",
+    "Atributos",
+    "Relacionamentos:",
+    "2) Construindo um diagrama entidade-relacionamento",
+    "Montando um diagrama mais detalhado",
+    "3) Criando um banco de dados para conter suas tabelas",
+    "4) Criando e modelando tabelas de acordo com um diagrama ER"
+  ],
+  "videos": [
+    {
+      "prof": "Gustavo Caetano",
+      "title": "Tipos de Dados"
+    },
+    {
+      "prof": "Gustavo Caetano",
+      "title": "Primary Key e Foreing Key"
+    },
+        {
+          "prof": "Gustavo Caetano",
+          "title": "Criando Tabelas"
+        }
+  ]
+  
+}

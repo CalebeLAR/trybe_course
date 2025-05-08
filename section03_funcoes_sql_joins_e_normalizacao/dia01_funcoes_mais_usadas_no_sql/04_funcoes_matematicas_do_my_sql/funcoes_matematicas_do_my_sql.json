@@ -1,0 +1,15 @@
+{
+  "title": "Funções matemáticas do MySQL",
+  "professor": "",
+  "topics": [
+    "Funções matemáticas do MySQL",
+    "Adição, subtração, multiplicação e divisão",
+    "Divisão de inteiros com DIV e como encontrar seus restos com o MOD",
+    "Desafios com DIV e MOD",
+    "Arredondando valores",
+    "Exponenciação e raiz quadrada",
+    "Gerando valores aleatórios",
+    "Para fixar"
+  ],
+  "videos": []
+}

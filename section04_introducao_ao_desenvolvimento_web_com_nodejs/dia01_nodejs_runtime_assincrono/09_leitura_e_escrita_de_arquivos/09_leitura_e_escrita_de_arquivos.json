@@ -1,0 +1,16 @@
+{
+  "title": "Leitura e Escrita de Arquivos",
+  "professor": "",
+  "topics": [
+    "Leitura e Escrita de Arquivos",
+    "Lendo arquivos com métodos síncronos",
+    "Lendo arquivos com métodos assíncronos",
+    "Escrevendo dados em arquivos"
+  ],
+  "videos": [
+    {
+      "prof": "Alberto Ramalho",
+      "title": "Projeto Missions: Criando a aplicação"
+    }
+  ]
+}

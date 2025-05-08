@@ -1,0 +1,15 @@
+{
+  "title": "Fluxo Assíncrono",
+  "professor": "",
+  "topics": [
+    "Fluxo Assíncrono",
+    "Exemplos realizados no vídeo",
+    "Funções Async/Await"
+  ],
+  "videos": [
+    {
+      "prof": "Renato Filho",
+      "title": "Fluxo Assíncrono: Promises"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "title": "Sistema de módulos",
+  "professor": "",
+  "topics": [
+    "Sistema de módulos",
+    "Módulos internos",
+    "Módulos locais",
+    "Módulos de terceiros",
+    "Maneiras de importar e exportar módulos",
+    "ES6",
+    "CommonJS"
+  ],
+  "videos": [
+    {
+      "prof": "Bruno Lopes",
+      "title": "NodeJS: Sistema de Módulos"
+    }
+  ]
+}
